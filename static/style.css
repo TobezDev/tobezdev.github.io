@@ -157,7 +157,8 @@ footer {
     transition: 0.3s;
     border-radius: 5px;
 
-    display: inline;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .card:hover {
