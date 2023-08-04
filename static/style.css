@@ -9,7 +9,6 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.5;
-    background-color: rgb(225, 225, 225);
 }
 
 body h2 {
@@ -145,4 +144,31 @@ footer {
 
 @media only screen and (device-width: 412px) and (device-height: 892px) and (-webkit-device-pixel-ratio: 2.55) {
     /* CSS styles for Samsung Galaxy Note 20 */
+}
+
+/* Project cards */
+
+.card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Object-specific styles */
+
+.edith-invite{
+    background-color: rgb(37, 13, 175);
+}
+
+.edith-invite:hover {
+    background-color: rgb(197, 63, 11);
+    transition: ease-in-out 3s;
 }
