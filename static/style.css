@@ -169,6 +169,7 @@ footer {
 }
 
 .edith-invite:hover {
-    background-color: rgb(197, 63, 11);
-    transition: ease-in-out 3s;
+    color: black;
+    transition: ease-in-out 1s;
+    background-color: rgb(200, 105, 65);
 }
