@@ -1,0 +1,23 @@
+* {
+    user-select: none;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav a {
+    color: white;
+    border: none;
+    padding-top: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    background-color: #333;
+}
+
+nav a:hover {
+    color: black;
+    background-color: #c7c7c7;
+    transition: 1.5s;
+}
