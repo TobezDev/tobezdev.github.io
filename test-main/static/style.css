@@ -35,13 +35,14 @@ body {
 
 .nav-list li {
     margin-right: 15px;
+    margin-left: 5px;
 }
 
 .nav-list li:last-child {
     margin-right: 5px;
 }
 
-.nav-list ul li a:hover {
+.nav-list a:hover {
     background-color: white;
     color: #333;
     transition: 1s;
