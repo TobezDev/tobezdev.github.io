@@ -38,7 +38,13 @@ body {
 }
 
 .nav-list li:last-child {
-    margin-right: 0;
+    margin-right: 5px;
+}
+
+.nav-list ul li a:hover {
+    background-color: white;
+    color: #333;
+    transition: 1s;
 }
 
 .separator {
