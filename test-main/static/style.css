@@ -1,13 +1,16 @@
+/* Reset default margin and padding */
 body, h1, h2, h4, p {
     margin: 0;
     padding: 0;
 }
 
+/* Body styles */
 body {
     font-family: Arial, sans-serif;
     background-color: #f5f5f5;
 }
 
+/* Header styles */
 header {
     background-color: #333;
     color: white;
@@ -15,31 +18,43 @@ header {
     padding: 1rem 0;
 }
 
+/* Navigation bar styles */
 .nav-bar {
     background-color: #222;
-    list-style: none;
-    padding: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 20px;
 }
 
-.nav-left {
-    display: flex;
-    align-items: center;
-    margin-left: 1rem;
+.site-title {
+    font-size: 24px;
+    margin-right: 10px;
 }
 
-.nav-right {
+.burger-icon {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.line {
+    height: 3px;
+    width: 25px;
+    background-color: white;
+    margin: 3px 0;
+}
+
+/* Navigation list styles */
+.nav-list {
+    list-style: none;
     display: flex;
-    align-items: center;
-    margin-right: 1rem;
+    gap: 15px;
 }
 
 .nav-list-item {
     margin: 0;
     padding: 0;
-    margin-right: 1rem;
 }
 
 .nav-list-item a {
@@ -47,6 +62,7 @@ header {
     color: white;
 }
 
+/* JSON description box styles */
 .json-desc {
     background-color: white;
     padding: 1rem;
