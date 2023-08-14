@@ -33,21 +33,21 @@ body {
     align-items: center;
 }
 
-.nav-list li {
+.nav-list li h2 {
     margin-right: 15px;
     margin-left: 5px;
 }
 
-.nav-list li:last-child {
+.nav-list-item li:last-child {
     margin-right: 5px;
 }
 
 .nav-list-item a {
+    padding: 5px;
     background-color: #333;
     color: white;
     transition: 1s;
 }
-
 
 .nav-list-item a:hover {
     background-color: white;
