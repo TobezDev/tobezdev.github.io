@@ -30,3 +30,19 @@ nav .nav-list-item:hover  {
     background-color: whitesmoke;
     transition: 1s;
 }
+
+.json-desc {
+    align-self: left;
+    margin-left: 10px;
+    color: rgba(200, 200, 200, 1);
+}
+
+.json-desc a {
+    color: aquamarine;
+    text-decoration: underline;
+}
+
+.json-desc a:hover {
+    color: blue;
+    background-color: rgba(255, 255, 255, 1)
+}
