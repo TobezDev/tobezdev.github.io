@@ -42,7 +42,14 @@ body {
     margin-right: 5px;
 }
 
-.nav-list a:hover {
+.nav-list-item a {
+    background-color: #333;
+    color: white;
+    transition: 1s;
+}
+
+
+.nav-list-item a:hover {
     background-color: white;
     color: #333;
     transition: 1s;
