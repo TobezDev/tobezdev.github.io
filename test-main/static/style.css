@@ -1,10 +1,5 @@
 /* Reset default margin and padding */
-body {
-    margin: 1rem;
-    padding: 0;
-}
-
-h1, h2, h4, p {
+body, h1, h2, h4, p {
     margin: 0;
     padding: 0;
 }
@@ -21,6 +16,16 @@ header {
     color: white;
     text-align: center;
     padding: 1rem 0;
+}
+
+header a {
+    padding: 5px;
+}
+
+header a:hover {
+    color: #333;
+    background-color: whitesmoke;
+    transition: 1.5s;
 }
 
 /* Navigation bar styles */
