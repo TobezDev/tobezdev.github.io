@@ -115,7 +115,7 @@ header {
 .dc-inv-bot-btn,
 .dc-inv-srv-btn {
     color: white;
-    background-color: #5865F2;
+    background-color: white;
     padding: 0.3rem 0.8rem;
     border-radius: 5px;
     text-decoration: none;
@@ -124,5 +124,5 @@ header {
 
 .dc-inv-bot-btn:hover,
 .dc-inv-srv-btn:hover {
-    background-color: #4352f1;
+    background-color: rgb(126, 218, 202);
 }
