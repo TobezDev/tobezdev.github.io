@@ -10,7 +10,8 @@
     display: none;
 }
 
-.jsonContent {
+/* Styles for the toggle switch */
+.jsonToggle .slider {
     position: absolute;
     cursor: pointer;
     top: 0;
@@ -23,7 +24,7 @@
     border-radius: 34px;
 }
 
-.jsonContent:before {
+.jsonToggle .slider:before {
     position: absolute;
     content: '';
     height: 26px;
@@ -34,16 +35,6 @@
     -webkit-transition: 0.4s;
     transition: 0.4s;
     border-radius: 50%;
-}
-
-input:checked + .jsonContent {
-    background-color: #2196F3;
-}
-
-input:checked + .jsonContent:before {
-    -webkit-transform: translateX(26px);
-    -ms-transform: translateX(26px);
-    transform: translateX(26px);
 }
 
 
