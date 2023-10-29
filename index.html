@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../static/style.css">
     <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@audius/sdk@latest/dist/sdk.min.js"></script>
+    <script src="./static/style.css"></script>
 </head>
 <body>
     <header>
@@ -27,28 +28,17 @@
     <main class="margin">
         <br><br>
         <h2>Hey, I'm TobezDev!</h2>
-        <h4>Here's some stuff about me. If you can't read JSON, I apologize :/</h4>
-        <div class="json-desc">
-            <pre>
-{
-    "tobezdev": {
-        "interests": ["Programming", "Music"],
-        "socials": {
-            "twitter (x)": "<a href="https://twitter.com/tobezdev">@tobezdev</a>",
-            "discord": "<a href="https://discord.com/users/969254887621820526">@tobezdev</a>",
-            "github": "<a href="https://github.com/tobezdev">@tobezdev</a>",
-            "audius": "<a href="https://audius.co/tobez">@tobez</a>"
-        },
-        "skills": {
-            "Programming": ["Python", "JavaScript", "HTML", "CSS"],
-            "Domains & Websites": ["Registration", "Hosting", "DNS Configuration"],
-            "Legal Things": ["Policies", "Contracts", "Documents"]
-        }
-    }
-}
-            </pre>
+        <h4>Here's some stuff about me. If you can't read JSON, uncheck the toggle below./</h4>
+        <label class="jsonToggle">
+            <input type="checkbox" id="toggleSwitch" checked>
+            <span class="slider"></span>
+        </label>
+        <div class="jsonContent" id="content"></div>
+        <script src="script.js"></script>
+        <div class="json-desc"> <!-- content managed by static/script.js -->
         </div>
-        <br><br>
+        <br>
+        <br>
     </main>
 </body>
 </html>
