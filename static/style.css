@@ -146,3 +146,18 @@ header {
   background-color: black;
   transition: background-color 1.5s;
 }
+
+.amazing {
+  color: black;
+  background-color: #00b0b3;
+}
+
+.moderate {
+  color: black;
+  background-color: orange;
+}
+
+.poor {
+  color: white;
+  background-color: red;
+}
