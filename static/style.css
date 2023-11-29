@@ -161,3 +161,24 @@ header {
   color: white;
   background-color: red;
 }
+
+/* Rainbow Text */
+
+.gradient-text {
+  background-image: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+  -webkit-background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
+
+.gradient-text.short {
+  background-image: linear-gradient(to right, violet, indigo);
+}
+
+.gradient-text.medium {
+  background-image: linear-gradient(to right, blue, green);
+}
+
+.gradient-text.long {
+  background-image: linear-gradient(to right, yellow, orange, red);
+}
