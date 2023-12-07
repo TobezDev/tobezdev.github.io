@@ -167,6 +167,7 @@ header {
 .gradient-text {
   background-image: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
   -webkit-background-clip: text;
+  background-clip: text;
   color: transparent;
   display: inline-block;
 }
