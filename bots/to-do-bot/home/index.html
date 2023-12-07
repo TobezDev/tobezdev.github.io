@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do Bot</title>
+    <link rel="stylesheet" href="your_existing_stylesheet.css">
+    <style>
+        /* Additional CSS for the homepage */
+
+        body {
+            padding: 20px;
+        }
+
+        .homepage-container {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #666;
+        }
+
+        .bot-description {
+            margin-top: 20px;
+        }
+
+        .permissions-section {
+            margin-top: 30px;
+        }
+
+        .bot-invite {
+            margin-top: 20px;
+        }
+
+        .invite-button {
+            color: black;
+            background-color: white;
+            border: 2.5px solid black;
+            padding: 0.5rem 1rem;
+            border-radius: 7px;
+            text-decoration: none;
+            transition: background-color 1.5s;
+        }
+
+        .invite-button:hover {
+            color: white;
+            background-color: black;
+            transition: color 1.5s, background-color 1.5s;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>To-Do Bot</h1>
+    </header>
+
+    <div class="homepage-container">
+        <h2>Welcome to To-Do Bot!</h2>
+        <p class="bot-description">
+            To-Do Bot is a Discord bot that helps you manage your tasks seamlessly within your Discord server.
+            Stay organized, create tasks, and collaborate with your server members effortlessly.
+        </p>
+        <div class="permissions-section" id="permissions">
+            <h2>What is each bot permission used for?</h2>
+            <p>To-Do Bot requires certain permissions to provide its features. Here's why each permission is necessary: </p>
+            <ul>
+                <li><strong>Identify:</strong> The bot needs to know who is using the bot and when. The collected details will usually not be stored for very long, however they may be shared with Discord under certain circumstances.</li>
+                <li><strong>Send Messages:</strong> This one is self-explanitory. How can you use the bot when it can't respond to you?</li>
+                <li><strong>Embed Links:</strong> Same reasons as above, but applies to commands that are used in thread channels.</li>
+                <li><strong>Attach Files:</strong> Allows To-Do Bot to view and gather input from users in text channels.</li>
+                <li><strong>Read Message History:</strong> Allows To-Do Bot to attach files to messages. This is useful when our team deliver you your privacy report if you request it.</li>
+                <li><strong>Use External Emojis:</strong> Some external emojis are used to spice up select messages.</li>
+                <li><strong>Use External Stickers:</strong> Same as above but instead applies to stickers.</li>
+                <li><strong>Add Reactions:</strong> Sometimes, during maintenance, To-Do Bot will queue commands to execute after the maintenance phase. It will respond to a few messages to acknowledge that command has been queued.</li>
+                <li><strong>Use Slash Commands:</strong> To-Do Bot uses cool slash commands to operate instead of the louzy text commands. Cool, right?</li>
+            </ul>
+        </div>
+
+        <div class="bot-invite" id="invite">
+            <h2>Invite To-Do Bot to Your Server</h2>
+
+            <p>Ready to get started? Invite To-Do Bot to your server and enhance your task management experience!</p>
+
+            <a href="about:blank" class="invite-button" target="_blank">[Soon] Invite To-Do Bot</a>
+        </div>
+    </div>
+</body>
+
+</html>
