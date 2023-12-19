@@ -183,3 +183,13 @@ header {
 .gradient-text.long {
   background-image: linear-gradient(to right, yellow, orange, red);
 }
+
+.json-about {
+  font-family: 'Franklin Gothic Medium';
+  color: black;
+  padding: 5px;
+  width: 90%;
+  align-self: center;
+  border-radius: 5px;
+  box-shadow: #333 5px 3px;
+}
